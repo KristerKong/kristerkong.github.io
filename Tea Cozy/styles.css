@@ -3,7 +3,6 @@
   color: seashell;
   text-align: center;
   font-family: Helvetica, sans-serif;
-  font-size: 22px;
   opacity: 0.9;
 }
 
@@ -12,6 +11,7 @@ body {
   margin: 0;
   opacity: 1;
   min-width: 345px;
+  font-size: 22px;
 }
 
 /*Typograhy*/
@@ -197,7 +197,7 @@ header {
 }
 
 @media only screen and (max-width: 800px) {
-   * {
+   body {
     font-size: 16px;
    }
 
@@ -205,10 +205,22 @@ header {
 
   h2 {
     font-size: 22px;
+    font-weight: 700;
+  }
+  
+  h3 {
+    font-size: 20px;
+    font-weight: 700;
   }
   
   h4 {
     font-size: 16px;
+    font-weight: 700;
+  }
+  
+  h5 {
+    font-size: 14px; 
+    font-weight: 700;
   }
 
   /*Header Section*/
